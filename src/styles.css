@@ -1,3 +1,16 @@
 @import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
 /*font-family: 'Lusitana', serif;
 font-family: 'Oswald', sans-serif;*/
+
+#nbar {
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #b62e2e;
+  display: block;
+  width: 80px;
+  padding: 0;
+  height: 100%;
+  position: fixed;
+  /*overflow: auto;*/
+}

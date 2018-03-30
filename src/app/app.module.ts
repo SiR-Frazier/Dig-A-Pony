@@ -12,9 +12,12 @@ import { AppComponent } from './app.component';
     AppComponent,
     MenuComponent
   ],
+
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
