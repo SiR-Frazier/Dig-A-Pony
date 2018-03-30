@@ -18,6 +18,6 @@ export class CalendarComponent {
     new Event("4/8-LAMAR", "BOOGIE/HIPHOP/R&B/ELECTRO"),
     new Event("4/9-JIMBO", "TRAP/HIPHOP")
   ];
-  constructor() { }
+  // constructor() { }
 
 }
