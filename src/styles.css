@@ -7,7 +7,7 @@ font-family: 'Oswald', sans-serif;*/
   font-family: 'Lusitana', serif;
   font-weight: 700;
   font-size: 24px;
-  color: #000000;
+  color: black;
   display: block;
   width: 80px;
   padding: 0;
@@ -23,7 +23,6 @@ font-family: 'Oswald', sans-serif;*/
 #menu-col {
   overflow: auto;
   max-height: 100vh;
-
 }
 
 li {
