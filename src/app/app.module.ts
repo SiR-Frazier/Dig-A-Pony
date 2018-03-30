@@ -5,12 +5,16 @@ import { routing } from './app.routing';
 
 
 import { AppComponent } from './app.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    CalendarComponent,
+    HomeComponent
   ],
 
   imports: [
