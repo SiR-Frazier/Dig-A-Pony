@@ -7,6 +7,7 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     MenuComponent,
     CalendarComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
 
   imports: [
