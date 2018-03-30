@@ -14,3 +14,8 @@ font-family: 'Oswald', sans-serif;*/
   position: fixed;
   /*overflow: auto;*/
 }
+
+#menu-col {
+  overflow: auto;
+  max-height: 100vh;
+}

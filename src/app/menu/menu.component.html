@@ -1,14 +1,17 @@
-<ul id="menu-nav">
-  <li>Cocktails</li>
-  <li>Food</li>
-  <li>Bottle Beer</li>
-  <li>Wine</li>
-  <li>Happy Hour</li>
-</ul>
+<div id="menu-col">
+  <ul id="menu-nav">
+    <li>Cocktails</li>
+    <li>Food</li>
+    <li>Bottle Beer</li>
+    <li>Wine</li>
+    <li>Happy Hour</li>
+  </ul>
 <div class="site-body">
   <div class= "scroll-pane">
     <div *ngFor="let item of items">
-      <h3>{{item.name}},{{item.description}},{{item.price}}</h3>
+      <ul>{{item.name}}, {{item.description}}, {{item.price}}</ul>
     </div>
   </div>
+</div>
+
 </div>
