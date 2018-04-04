@@ -16,6 +16,9 @@ font-family: 'Oswald', sans-serif;*/
   /*overflow: auto;*/
 }
 
+::selection {
+}
+
 #nbar :hover {
   color: #b62e2e;
 }
