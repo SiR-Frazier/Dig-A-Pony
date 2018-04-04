@@ -6,6 +6,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { EventsComponent } from './events/events.component';
 
 const appRoutes: Routes = [
   {
@@ -31,7 +32,10 @@ const appRoutes: Routes = [
   {
     path: 'gallery',
     component: GalleryComponent
-  }
+  },
+  {  path: 'events',
+    component: EventsComponent
+  }  
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
