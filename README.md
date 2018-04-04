@@ -14,6 +14,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run $ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save
 
+Create api-keys.ts file inside of the app folder.
+
+
+
+Sign in to Firebase: https://firebase.google.com/ to acquire Firebase credentials. The 
+
+
+
 <!-- ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`. -->
