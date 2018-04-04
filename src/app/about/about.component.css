@@ -1,7 +1,10 @@
-/*h1 {
+* {
   font-family: 'Oswald', sans-serif;
-}*/
-#about {
+}
+.about {
+  margin-left: 100px;
+}
+#img1 {
   max-width: 400px;
   max-height: 200px;
   float: inherit;
