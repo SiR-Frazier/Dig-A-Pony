@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Party } from '../party.model';
 import { Router } from '@angular/router';
 import { PartyService } from '../party.service'; //added for service
-
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-events',
@@ -11,7 +11,7 @@ import { PartyService } from '../party.service'; //added for service
   providers: [PartyService]
 })
 export class EventsComponent implements OnInit {
-  parties: Party[];
+  parties: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private partyService: PartyService) {}
 
@@ -21,5 +21,6 @@ export class EventsComponent implements OnInit {
 
  submitForm(name: string, contact: string, description: string) {
     var newParty: Party = new Party(name, contact, description);
+    this.partyService.addParty(newParty);
   }
 }
