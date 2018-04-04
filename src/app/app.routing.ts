@@ -35,7 +35,7 @@ const appRoutes: Routes = [
   },
   {  path: 'events',
     component: EventsComponent
-  }  
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
