@@ -7,7 +7,7 @@
       <div>
         <label>Name:</label>
         <br>
-        <input #newName>
+        <input type="text" name="name" required #newName>
       </div>
       <br>
       <div>
@@ -22,7 +22,7 @@
         <textarea #newDescription></textarea>
       </div>
       <br>
-      <button (click)="submitForm(newName.value, newContact.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''">Submit</button>
+      <button (click)="submitForm(newName.value, newContact.value, newDescription.value); newName.value=''; newContact.value=''; newDescription.value=''">Submit</button>
     </div>
   </div>
 </div>
