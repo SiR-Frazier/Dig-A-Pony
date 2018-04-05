@@ -4,7 +4,9 @@
 #diglogo {
   height: 70px;
   width: 181px;
+  margin-left: -30px;
 }
+
  #nbar {
   margin-right: 200px;
   background-color: none;
