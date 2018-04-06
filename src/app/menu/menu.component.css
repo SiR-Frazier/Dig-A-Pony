@@ -6,6 +6,10 @@
    font-family: 'Oswald', sans-serif;
  }
 
-.drinkName {
+ a {
+   color: #b62e2e;
+ }
+
+.drinkName, li {
   font-size: 1.5em;
 }
