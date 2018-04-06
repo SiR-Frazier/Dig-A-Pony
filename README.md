@@ -1,6 +1,6 @@
 # Digpony
 
-Angular program was used to rebuild the site of a local Portland,OR bar. 3/30/2018.
+Angular program was used to rebuild the site of a local Portland,OR bar. 4/6/2018.
 
 By Bryce Frazier
 
@@ -56,16 +56,13 @@ Click Add Project
 -Bootstrap
 -Node
 
-## Further Expansion
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-<!-- ## Code scaffolding
+## Build
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`. -->
-
-<!-- ## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build. -->
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
@@ -78,6 +75,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Further Expansion
+-Will look to add additional styling to the pages, specifically 
 
 ## License
 
