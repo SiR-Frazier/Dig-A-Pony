@@ -21,7 +21,15 @@ Run $ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save.
 Create api-keys.ts file inside of src/app folder of the project.
 
 Copy and Paste the following inside of the api-keys.ts file:
-  export var masterFirebaseConfig = { }; (Note: This will serve as a placeholder for the Firebase credentials)
+    export const masterFirebaseConfig = {
+    apiKey: "XXXX",
+    authDomain: "XXXX",
+    databaseURL: "XXXX",
+    projectId: "XXXX",
+    storageBucket: "XXXX",
+    messagingSenderId: "XXXX"
+    };
+(Note: This will serve as a placeholder for the Firebase credentials)
 
 Go to Firebase: https://firebase.google.com/ to acquire Firebase credentials. (Note: You may need to create an account)
 
