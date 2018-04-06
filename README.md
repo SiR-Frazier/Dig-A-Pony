@@ -40,13 +40,13 @@ Click Add Project
 
 ## Technologies used
 
-HTML
-CSS
-Typescript/Javascript
-Angular
-jQuery
-Bootstrap
-Node
+-HTML
+-CSS
+-Typescript/Javascript
+-Angular
+-jQuery
+-Bootstrap
+-Node
 
 ## Further Expansion
 
