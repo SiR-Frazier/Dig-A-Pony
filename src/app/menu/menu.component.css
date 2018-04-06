@@ -4,4 +4,8 @@
 
 * {
    font-family: 'Oswald', sans-serif;
- } 
+ }
+
+.drinkName {
+  font-size: 1.5em;
+}

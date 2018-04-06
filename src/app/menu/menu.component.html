@@ -10,7 +10,8 @@
   <div class="site-body">
     <div class= "scroll-pane">
       <div *ngFor="let item of items">
-        <ul>{{item.name}}, {{item.description}}, {{item.price}}</ul>
+        <ul><span class="drinkName">{{item.name}}</span>       <p>{{item.description}}, {{item.price}}</p>
+        </ul>
       </div>
     </div>
   </div>
