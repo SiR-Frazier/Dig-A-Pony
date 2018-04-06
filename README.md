@@ -4,11 +4,11 @@ Angular program was used to rebuild the site of a local Portland,OR bar. 3/30/20
 
 By Bryce Frazier
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5. It is a recreation of the website for a local bar, Dig A Pony, for a project. Here is the original site: http://digaponyportland.com/.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5. It is a recreation of the website for a local bar, Dig A Pony, for a project. Users can view the cocktail menu, dj calendar, contact page, about page, calendar, and submit a form to request to host an event, i.e. birthday party, at the bar.  Here is the original site: http://digaponyportland.com/.
 
 ## Development server
 
-<!-- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. -->
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 # Install/Setup Instructions
 
