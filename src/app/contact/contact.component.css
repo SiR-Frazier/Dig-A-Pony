@@ -6,3 +6,14 @@
 * {
   font-family: 'Oswald', sans-serif;
 }
+
+.contact-info {
+  /*display: inline-block;*/
+}
+
+li {
+  font-size: 1.5em;
+}
+ span {
+   color: #898989;
+ }

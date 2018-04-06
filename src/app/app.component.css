@@ -1,6 +1,9 @@
 /*.panel {
   text-align: center;
 }*/
+.container-fluid {
+
+}
 #diglogo {
   height: 70px;
   width: 181px;
@@ -10,4 +13,8 @@
  #nbar {
   margin-right: 200px;
   background-color: none;
+ }
+
+ #nbar :not(selector) {
+   background: none;
  }
