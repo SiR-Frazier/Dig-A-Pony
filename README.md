@@ -10,15 +10,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 <!-- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. -->
 
-# Install
+# Install/Setup Instructions
 
 Run git clone https://github.com/SiR-Frazier/week3review inside the terminal.
 
-Run npm install.
+Run npm install to install necessary dependencies.
 
 Run $ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save.
 
-Create api-keys.ts file inside of src/app folder.
+Create api-keys.ts file inside of src/app folder of the project.
 
 Copy and Paste the following inside of the api-keys.ts file:
   export var masterFirebaseConfig = { }; (Note: This will serve as a placeholder for the Firebase credentials)
@@ -26,14 +26,15 @@ Copy and Paste the following inside of the api-keys.ts file:
 Go to Firebase: https://firebase.google.com/ to acquire Firebase credentials. (Note: You may need to create an account)
 
 Click Add Project
-  -Enter name project name;
-  -Click Database;
-  -Get Started;
-  -Change ".read" and ".write" to "true", then click Publish.
+  -Enter the project name;
+  -Click Database > Get Started;
+  -Change ".read" and ".write" rules to "true", then click Publish.
   -Click on Project Overview in the navigation bar on the lefthand side;
   -Click Add Firebase to your web app;
   -Copy the code inside of the curly brackets, i.e. apiKey, authDomain, etc.
-  -return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig.
+  -return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig { }.
+
+-Run npm install again.
 
 <!-- ## Code scaffolding
 
