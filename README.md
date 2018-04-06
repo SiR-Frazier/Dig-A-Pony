@@ -77,7 +77,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Further Expansion
--Will look to add additional styling to the pages, specifically 
+-Will look to add additional styling to the pages, specifically connect with the Instagram API for Dig A Pony and add routing to the menu page so that users can view the food, wine, etc.
 
 ## License
 
