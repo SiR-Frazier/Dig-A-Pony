@@ -1,10 +1,44 @@
+.homepics {
+  margin-left: 100px;
+}
+
 #homepic1 {
   height: 417px;
   width: 417px;
   display: inline-block;
+  filter: grayscale(100%);
 }
  #homepic2 {
    height: 425px;
    width: 417px;
    display: inline-block;
+   filter: grayscale(100%);
+ }
+
+ #homepic3 {
+   height: 417px;
+   width: 417px;
+   display: inline-block;
+   filter: grayscale(100%);
+ }
+
+ #homepic4 {
+   height: 417px;
+   width: 417px;
+   display: inline-block;
+   filter: grayscale(100%);
+ }
+
+ #homepic5 {
+   height: 417px;
+   width: 417px;
+   display: inline-block;
+ }
+
+ #homepic6 {
+   height: 417px;
+   width: 417px;
+   display: inline-block;
+   opacity: 1;
+   filter: grayscale(100%);
  }
