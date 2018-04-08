@@ -12,6 +12,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 # Install/Setup Instructions
 
+(Note: you may need to install angular in the terminal)
+
 Run git clone https://github.com/SiR-Frazier/week3review inside the terminal.
 
 Run npm install to install necessary dependencies.
