@@ -16,7 +16,7 @@ Run git clone https://github.com/SiR-Frazier/week3review inside the terminal.
 
 Run npm install to install necessary dependencies.
 
-Run $ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save.
+Run $ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save
 
 Create api-keys.ts file inside of src/app folder of the project.
 
@@ -43,6 +43,8 @@ Click Add Project
   -return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig { }.
 
 -Run npm install again.
+
+-Run ng serve.
 
 -Go to http://localhost:4200/ in your preferred browser.
 
