@@ -44,9 +44,13 @@ Click Add Project
   -Copy the code inside of the curly brackets, i.e. apiKey, authDomain, etc.
   -return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig { }.
 
+Comment out the api-keys.ts content.  
+
 -Run npm install again.
 
 -Run ng serve.
+
+-Uncomment out the api-keys.ts content.
 
 -Go to http://localhost:4200/ in your preferred browser.
 
