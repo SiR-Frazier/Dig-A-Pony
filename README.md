@@ -31,18 +31,26 @@ Copy and Paste the following inside of the api-keys.ts file:
     storageBucket: "XXXX",
     messagingSenderId: "XXXX"
     };
+    
 (Note: This will serve as a placeholder for the Firebase credentials)
 
 Go to Firebase: https://firebase.google.com/ to acquire Firebase credentials. (Note: You may need to create an account)
 
 Click Add Project
-  -Enter the project name;
-  -Click Database > Get Started;
-  -Change ".read" and ".write" rules to "true", then click Publish.
-  -Click on Project Overview in the navigation bar on the lefthand side;
-  -Click Add Firebase to your web app;
-  -Copy the code inside of the curly brackets, i.e. apiKey, authDomain, etc.
-  -return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig { }.
+
+Enter the project name;
+
+Click Database > Get Started;
+
+Change ".read" and ".write" rules to "true", then click Publish.
+
+Click on Project Overview in the navigation bar on the lefthand side;
+
+Click Add Firebase to your web app;
+
+Copy the code inside of the curly brackets, i.e. apiKey, authDomain, etc.
+
+return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig { }.
 
 Comment out the api-keys.ts content.  
 
