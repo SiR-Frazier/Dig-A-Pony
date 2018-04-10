@@ -31,7 +31,7 @@ Copy and Paste the following inside of the api-keys.ts file:
     storageBucket: "XXXX",
     messagingSenderId: "XXXX"
     };
-    
+
 (Note: This will serve as a placeholder for the Firebase credentials)
 
 Go to Firebase: https://firebase.google.com/ to acquire Firebase credentials. (Note: You may need to create an account)
@@ -52,15 +52,19 @@ Copy the code inside of the curly brackets, i.e. apiKey, authDomain, etc.
 
 return to project and add the firebasecredentials to the api-keys.ts file inside of the var masterFirebaseConfig { }.
 
-Comment out the api-keys.ts content.  
+Run npm install again.
 
--Run npm install again.
+Run ng serve.
 
--Run ng serve.
+Go to http://localhost:4200/ in your preferred browser.
 
--Uncomment out the api-keys.ts content.
+##Firebase link:
 
--Go to http://localhost:4200/ in your preferred browser.
+View project on Firebase here: https://code-review3-ade63.firebaseapp.com/
+
+##Github Repository:
+
+View the Github repository here: https://github.com/SiR-Frazier/week3review
 
 ## Technologies used
 
